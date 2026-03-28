@@ -2,9 +2,9 @@
 
 
 int addition() {
-    int x=10;
+    double x=10;
     int y=4;
-    int z=x+y;
-    std::cout <<z;
+    double z=x/y;
+    std::cout << z;
     return 0;
 }
